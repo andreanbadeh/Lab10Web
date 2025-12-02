@@ -22,4 +22,8 @@ CREATE TABLE IF NOT EXISTS mahasiswa (
 
 # Menampilkan Tabel Di terminal
 
+![gambar](https://github.com/andreanbadeh/Lab10Web/blob/283df9f5ce656b11ccca081b62693370afc58aa8/image/Screenshot%20from%202025-12-03%2006-07-22.png)
+
+# Bagian Phpmyadmin
+
 ![gambar](
