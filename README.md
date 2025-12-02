@@ -26,4 +26,58 @@ CREATE TABLE IF NOT EXISTS mahasiswa (
 
 # Bagian Phpmyadmin
 
-![gambar](
+![gambar](https://github.com/andreanbadeh/Lab10Web/blob/80351aca8bffd80b9165789d77b09c93bed4fcdf/image/Screenshot%20from%202025-12-03%2006-09-20.png)
+
+# Buat file baru dengan nama config.php
+```
+<?php
+$config = [
+    "host"     => "localhost",
+    "username" => "root",
+    "password" => "070406",
+    "db_name"  => "lab10_db"
+];
+?>
+```
+
+# # Buat file baru dengan nama Mobil.php
+```
+<?php
+class Mobil
+{
+    private $warna;
+    private $merk;
+    private $harga;
+
+    public function __construct()
+    {
+        $this->warna = "Biru";
+        $this->merk  = "BMW";
+        $this->harga = "10000000";
+    }
+
+    public function gantiWarna($warnaBaru)
+    {
+        $this->warna = $warnaBaru;
+    }
+
+    public function tampilWarna()
+    {
+        echo "Warna mobilnya : " . $this->warna;
+    }
+}
+
+$a = new Mobil();
+$b = new Mobil();
+
+echo "<b>Mobil pertama</b><br>";
+$a->tampilWarna();
+echo "<br>Mobil pertama ganti warna<br>";
+$a->gantiWarna("Merah");
+$a->tampilWarna();
+
+echo "<br><br><b>Mobil kedua</b><br>";
+$b->gantiWarna("Hijau");
+$b->tampilWarna();
+?>
+```
