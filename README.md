@@ -5,41 +5,6 @@ NIM : 312410341
 
 KELAS : TI.24.A.4
 
-# Membuat Database
-```
-CREATE DATABASE IF NOT EXISTS lab10_db;
-USE lab10_db;
-```
-# Membuat Tabel
-```
-CREATE TABLE IF NOT EXISTS mahasiswa (
-  id INT AUTO_INCREMENT PRIMARY KEY,
-  nim VARCHAR(20) NOT NULL,
-  nama VARCHAR(100) NOT NULL,
-  alamat VARCHAR(255)
-);
-```
-
-# Menampilkan Tabel Di terminal
-
-![gambar](https://github.com/andreanbadeh/Lab10Web/blob/283df9f5ce656b11ccca081b62693370afc58aa8/image/Screenshot%20from%202025-12-03%2006-07-22.png)
-
-# Bagian Phpmyadmin
-
-![gambar](https://github.com/andreanbadeh/Lab10Web/blob/80351aca8bffd80b9165789d77b09c93bed4fcdf/image/Screenshot%20from%202025-12-03%2006-09-20.png)
-
-# Buat file baru dengan nama config.php
-```
-<?php
-$config = [
-    "host"     => "localhost",
-    "username" => "root",
-    "password" => "070406",
-    "db_name"  => "lab10_db"
-];
-?>
-```
-
 # Buat file baru dengan nama Mobil.php
 ```
 <?php
@@ -242,78 +207,12 @@ class Database {
 }
 ?>
 ```
-# Konfigurasi Dengan Style.css
-```
-body {
-    font-family: Arial, sans-serif;
-    background: #f4f7fc;
-    margin: 0;
-    padding: 0;
-}
-
-.container {
-    width: 450px;
-    margin: 40px auto;
-    background: #ffffff;
-    padding: 25px 30px;
-    border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-}
-
-h3 {
-    text-align: center;
-    margin-bottom: 20px;
-    color: #333;
-}
-
-table {
-    width: 100%;
-}
-
-td {
-    padding: 10px 0;
-    font-size: 16px;
-}
-
-input[type="text"] {
-    width: 95%;
-    padding: 10px;
-    font-size: 15px;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-}
-
-input[type="submit"] {
-    margin-top: 15px;
-    padding: 10px 20px;
-    width: 100%;
-    background: #4a90e2;
-    border: none;
-    color: white;
-    font-size: 16px;
-    border-radius: 6px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-input[type="submit"]:hover {
-    background: #357ac9;
-}
-
-.result {
-    margin-top: 20px;
-    padding: 15px;
-    background: #e0ffe0;
-    border-left: 5px solid #33cc33;
-    border-radius: 6px;
-}
-```
 
 # Pertanyaan & Tugas
 
 ![gambar](https://github.com/andreanbadeh/Lab10Web/blob/3e0aafe5f8cfe47e2f7e6d1a6ea3cfd3bf99f160/image/Screenshot%20from%202025-12-03%2008-22-04.png)
 
 # Hasil Akhir From
-![gambar](https://github.com/andreanbadeh/Lab10Web/blob/586f16711a050de9bab18f7c696c22ccad206797/image/Screenshot%20from%202025-12-03%2008-25-37.png)
+![gambar](https://github.com/andreanbadeh/Lab10Web/blob/d45cd18f32256f8d954f1644a79bd9ee2d2c528e/image/Screenshot%20from%202025-12-03%2016-58-44.png)
 
 
