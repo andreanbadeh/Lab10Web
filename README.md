@@ -81,6 +81,11 @@ $b->gantiWarna("Hijau");
 $b->tampilWarna();
 ?>
 ```
+
+Hasilnya:
+
+![gambar](https://github.com/andreanbadeh/Lab10Web/blob/8c03ed3a870fbeb28ea8916f00925a86f3f488bf/image/Screenshot%20from%202025-12-03%2008-23-32.png)
+
 # Buat file baru dengan nama form.php
 ```
 <?php
