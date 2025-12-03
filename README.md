@@ -316,5 +316,4 @@ input[type="submit"]:hover {
 # Hasil Akhir From
 ![gambar](https://github.com/andreanbadeh/Lab10Web/blob/586f16711a050de9bab18f7c696c22ccad206797/image/Screenshot%20from%202025-12-03%2008-25-37.png)
 
-# Hasil Akhir database connection
-![gambar](https://github.com/andreanbadeh/Lab10Web/blob/0b42636a9b9a7700a80bcb45c6a5e7f1de2c82b7/image/Screenshot%20from%202025-12-03%2008-30-16.png)
+
